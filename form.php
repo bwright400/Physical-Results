@@ -9,30 +9,17 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
-
-        <!-- CSS
-        ================================================== -->       
-        <!-- Bootstrap css file-->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="css/display.css" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Font awesome css file-->
         <link href="css/font-awesome.min.css" rel="stylesheet">       
-        <!-- Default Theme css file -->
         <link id="switcher" href="css/themes/blue-theme.css" rel="stylesheet">   
-        <!-- Slick slider css file -->
-        <link href="css/slick.css" rel="stylesheet"> 
-        <!-- Photo Swipe Image Gallery -->     
-        <link rel='stylesheet prefetch' href='css/photoswipe.css'>
-        <link rel='stylesheet prefetch' href='css/default-skin.css'>    
-    <!-- Google fonts -->
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>  
         <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>   
         <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
 
         <script src="form.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="css/display.css" />
  
     </head>
     <body style="text-align: center; white-space: nowrap">
@@ -57,7 +44,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="features.html">Features</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -70,6 +57,7 @@
       <!-- END MENU -->    
     </header>
         <br/><br/><br/><br/><br/>
+        <section>
         <div class="container">
         <div class="text-center background container">
             <form role="form" method="post">
@@ -302,6 +290,7 @@
             </form>
           </div>
         </div>
+        </section>
     </body>
 </html>
 

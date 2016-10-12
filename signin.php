@@ -80,7 +80,7 @@
                           </div>
                           <br/>
                           <div class="row">
-                             <button type="button" class="btn btn-link" id="account">New Account</button>
+                              <a class="btn btn-link" id="account" href="create_account.php">New Account</a>
                              &nbsp;&nbsp;&nbsp;&nbsp;
                              <button type="button" class="btn btn-link">Forgot Password</button>
 <!--                              <div class="col-sm-6">
@@ -94,57 +94,7 @@
                   </form>
             </div>
         </section>
-        <?php
-            function account() {
-        ?>
-            <section id="account-page">
-                <div class="container main">
-                    <form role="form" method="post">
-                        <h1>Login</h1>
-                        <br/>
-                        <div class="form-group">
-                            <div class="row">
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label>First Name</label>
-                                    <input class="form-control" />
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Last Name</label>
-                                    <input class="form-control" />        
-                                </div>
-                            </div>
-                            <br/>
-                            <div class="row align">
-                                <div>
-                                    <label>Email</label>
-                                    <input class="form-control" />
-                                </div>
-                            </div>
-                            <br/>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label>Password</label>
-                                    <input class="form-control" />
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Confirm Password</label>
-                                    <input class="form-control" style=""/>
-                                </div>
-                            </div>
-                            <br/>
-                            <div class="row">
-                                <button class="submit" type="submit">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                    <br/>
-                </div>
-            </section>
-    <?php
-        }
-    ?>
+        
 
 <br/><br/><br/><br/>
         <footer id="footer" style="text-align: left">
